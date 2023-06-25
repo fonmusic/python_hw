@@ -3,9 +3,9 @@
 # вверх одной и той же стороной. Выведите минимальное количество монет, которые нужно перевернуть
 
 
-coins = 'PPPPOOOPPPPPOOPPP'
+coins = 'PP00'
 head = 'P'
-tail = 'O'
+
 
 headCount = 0
 tailCount = 0
@@ -18,7 +18,5 @@ for i in coins:
 
 if headCount < tailCount:
     print(f'минимальное количество монет, которые нужно перевернуть - {headCount}')
-elif headCount > tailCount:
-    print(f'минимальное количество монет, которые нужно перевернуть - {tailCount}')
 else:
     print(f'минимальное количество монет, которые нужно перевернуть - {tailCount}')
