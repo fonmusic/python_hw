@@ -18,10 +18,10 @@ for i in range(n):
             break
         else:
             lines[i] = lines[i][lines[i].index(j):] 
-            print(lines)
+            # print(lines)
             infected.append(j)
     if found:
         print(i + 1, end=' ')
    
 
-print(infected)
+# print(infected)
