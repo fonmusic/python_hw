@@ -9,9 +9,10 @@ def create_arithmetic_progression():
     d = int(input("Введите разность прогрессии: "))
     n = int(input("Введите количество элементов: "))
 
-    progression = [a1 + (i-1) * d for i in range(1, n+1)]
+    progression = [a1 + (i - 1) * d for i in range(1, n + 1)]
 
     return progression
+
 
 progression = create_arithmetic_progression()
 print("Прогрессия:", progression)

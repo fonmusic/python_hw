@@ -8,6 +8,7 @@ def find_indices_in_range(arr, min_value, max_value):
             indices.append(i)
     return indices
 
+
 my_list = [1, 5, 10, 15, 20, 25, 30]
 minimum = 10
 maximum = 25
